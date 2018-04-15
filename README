@@ -1,1 +1,10 @@
-一个vue.js + Thinkphp5.1的webapp，单页应用
+一个vue.js + Thinkphp5.1 + mysql实现的的webapp（单页应用），v0.1包含文章以及消息功能模块
+
+部署教程：
+  1、导入vBlog.sql到mysq
+  2、Thinkphp中修改config/database.php中数据库配置，正常连接数据库
+  3、新建一个vhost域名，绑定到thinkphp的public目录
+  4、在vue目录src/config修改vhost域名
+  5、安装node.js以及vue cli工具
+  6、进入vue目录，依次执行，npm install  /  npm run dev  /  默认监听8080端口
+  7、打开浏览器，输入localhost:8080开始享用
